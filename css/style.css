@@ -1,0 +1,276 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin:0;
+    background-color: #f4f4f4;
+}
+
+/* Global */
+
+.container{
+    width:100%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 0px;
+    
+}
+ul{
+    margin:0;
+    padding: 0;
+}
+/* Header */
+header{
+    background:  #ff6666;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom:  #19334d 3px solid;
+}
+
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;    
+    transition: .5s ease;
+
+}
+
+
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding{
+    float:left;
+    padding-left: 20px;
+}
+
+header #branding h1{
+    margin:0;
+}
+header nav{
+    float:right;
+    margin-top: 15px;
+}
+
+header a:hover{
+color: #cccccc;
+font-weight: bold;
+}
+
+
+/*Showcase*/
+#showcase{
+min-height: 400px;
+background: url('../img/nyc.jpg') no-repeat -400px -800px;
+text-align: center;
+color: white;
+
+
+}
+
+
+#showcase h1{
+    margin-top:100px;
+    font-size:50px;
+    margin-bottom:10px;
+}
+
+/*Boxes*/
+
+#boxes{
+    margin-top: 20px;
+    display:block;
+}
+
+#boxes .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align:center;
+
+}
+
+#boxes .box img{
+    width: 90px;
+}
+/*timeline*/
+.timeline{
+    font-size: 100%;
+    padding: 10px;
+    text-align: center;
+    left: 30%;
+    margin-top: 0px;
+    background: rgb(255, 188, 188); 
+    width: 100%;
+    
+}
+
+.timeline-box{
+text-align: center;
+width: 300px;
+padding: 15px;
+margin: 20px;
+background: #ff4f4f;
+color: white;
+border-radius: 25px;
+display: inline-block;
+height: 100%;
+padding-bottom: 20px;
+}
+.timeline-box h3{
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+.timeline-img{
+    width: 100%;
+    padding: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    transition: .5s ease;
+
+}
+
+.timeline-img:hover {
+    opacity: 0.5;
+}
+
+/*about me*/
+.About-me img{
+    width: 40%;
+    border-radius: 25px;
+}
+.About-me{
+    width: 40%;
+    float: left;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+.timeline-box li{
+    display: inline;
+    padding: 5px;
+}
+.timeline ul{
+    font-weight: bold;
+}
+
+
+/*footer*/
+footer{
+    padding: 5px;
+    margin-top: 20px;
+    color: white;
+    background-color: #172f47;
+    text-align: center;
+}
+/*title*/
+.container-title{
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+.container-title .square{
+    margin-left: auto;
+    border: none;
+    margin-right: auto;
+    margin-top: 3px;
+    padding-top:0 0 0 0;
+    height:10px;
+    width: 30px;
+    background-color: rgb(85, 85, 85);
+}
+
+
+/*skills*/
+.skills{
+    padding-top: 30px;
+    padding-left: 15px;
+    float: left;
+    width: 50%;
+    
+}
+
+/*bar*/
+
+.backbar{
+    height: 90%;
+    background: rgb(197, 197, 197);
+    margin: 0 0 20px 0;
+    width: 100%;
+
+}
+
+.fillbar{
+    height: 90%;
+    background: #db4b4b;
+}
+
+.smallbar{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 3px;
+    font-size: 15px;
+    background: #ff6666;
+    width: 90px;
+    height:90%;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/*vertical line */
+
+#verticalLine{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/*Find me on */
+
+.findme{
+    text-align: center;
+    font-size: 25px;
+    display: inline-block;
+    margin-bottom: -30px;
+
+}
+
+.findme img{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    transition: 0.5s ease;
+    width: 175px;    
+
+}
+
+.findme img:hover{
+    opacity: 0.5;
+}
+.resource{
+    text-align: center;
+    align-content: center;
+}
+.findme h1{
+   padding-left: 30px;
+   padding-right: 30px;
+   position: relative;
+   bottom: 10%;
+   top: -12px;
+}
+
+
