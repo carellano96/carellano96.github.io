@@ -319,3 +319,15 @@ background-color: #b31b1b;
 .contact-form{
     padding: 40px;
 }
+
+/*graphic images*/
+.graphic-images{
+    padding: 15px;
+}
+.graphic-images img{
+    display: block;
+    width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 10px;
+}
