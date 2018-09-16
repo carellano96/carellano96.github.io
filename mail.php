@@ -17,10 +17,7 @@
                     echo '<p>Something went wrong. Please go back and try again!</p>';
 
                 }
-            else if ($_POST['submit']&& $human!='5'){
-                echo '<p>You answered the anti-spam question wrong!</p>';
 
-            }
         }
         else{
             echo '<p> You need to fill in all fields!</p>';
