@@ -43,7 +43,6 @@ header a{
 
 
 header li{
-    float: left;
     display: inline;
     padding: 0 20px 0 20px;
 }
@@ -88,13 +87,16 @@ color: white;
 #boxes{
     margin-top: 20px;
     display:block;
+    text-align: center;
 }
 
 #boxes .box{
-    float: left;
-    width: 30%;
+    display: inline-block;
+    width: 350px;
+    vertical-align: top;
     padding: 10px;
     text-align:center;
+
 
 }
 
