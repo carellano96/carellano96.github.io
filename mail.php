@@ -5,13 +5,11 @@
     $email = $_POST['email'];
     $from = 'From: Demo';
     $to = 'carellano96@gmail.com';
-    $human = $_POST['human'];
     $subject = 'Hello';
     $body= "From: $name\n Email: $email\n Message:$message";
 
     if ($_POST['submit']){
-        if ($name !=''&&$email !=''){
-            if ($human=='5'){
+        if ($firstname !=''&&$lastname !=''&&$email !=''){
                 if (mail($to,$subject,$body,$from)){
                     echo '<p> Your message has been sent!</p>';
                 }
@@ -19,7 +17,6 @@
                     echo '<p>Something went wrong. Please go back and try again!</p>';
 
                 }
-            }
             else if ($_POST['submit']&& $human!='5'){
                 echo '<p>You answered the anti-spam question wrong!</p>';
 
