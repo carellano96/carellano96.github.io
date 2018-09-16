@@ -23,10 +23,13 @@
 <a href="index.html">Home</a>
 </li>
 <li>
-        <a href="index.html">Portfolio</a>
+        <a href="#about">About</a>
+    </li>
+    <li>
+        <a href="#projects">Portfolio</a>
         </li>
         <li>
-                <a href="index.html">Contact</a>
+                <a href="#contact">Contact</a>
                 </li>
 
 </ul>
@@ -47,7 +50,7 @@
 <section id="boxes">
 <div class="container-title">
 
-<h1>ABOUT<div class="square"></div>
+<a id="about"><h1>ABOUT<div class="square"></div></a>
 </h1>
 
 
@@ -160,12 +163,11 @@ I have worked on WayMap, a student project to facilitate spread of local events 
 
 
 </section>
-
 <section class = "container" style= "background: rgb(255, 188, 188); ">
 <div class="timeline">
         <div class="container-title">
 
-                <h1 style="color:rgb(85, 85, 85)">PROJECTS<div class="square"></div>
+                <a id="projects"><h1 style="color:rgb(85, 85, 85)">PROJECTS<div class="square"></div></a>
                 </h1>
                 
                 
@@ -200,21 +202,51 @@ I have worked on WayMap, a student project to facilitate spread of local events 
 
 </section>
 
+
 <section>
-<div class="container">
-    <div class="resource">
-<div class="findme">   
-    <h1>Find me on:</h1> 
-    </div>
-<div class="findme">
-<a href="https://github.com/carellano96" target="_blank"><img src="./img/github.png"></a>
-<a href ="https://www.linkedin.com/in/carlosarellano96/" target="_blank"><img src="./img/linkedin.png"></a>
+<div class="container" style="margin-top: 0px; padding-top: 0px">
+    <div class ="contact-form">
+            <div class="container-title">
+
+                    <a id="contact"><h1>CONTACT<div class="square"></div></a>
+                    </h1>
+                    
+                    
+                    </div>
+<form method="post" action= "mail.php" >
+<label for="fname">First Name</label>
+<input type="text" id="fname" name="firstname" placeholder="Your first name...">
+<label for="lname">Last Name</label>
+<input type="text" id= "lname" name = "lastname" placeholder="Your last name...">
+<label for="subject">Subject</label>
+
+<textarea id="subject" name="subject" placeholder="Write something..." style="height: 300px"></textarea>
+<input type="submit" value="Submit">
+<label>*What is 3+2? (Anti-spam)</label>
+<input name="human" placeholder="Type Here">
+</form>
+</div>
 
 </div>
-</div>
-</div>
+
 
 </section>
+<section>
+        <div class="container">
+            <div class="resource">
+        <div class="findme">   
+            <h1>Find me on:</h1> 
+            </div>
+        <div class="findme">
+        <a href="https://github.com/carellano96" target="_blank"><img src="./img/github.png"></a>
+        <a href ="https://www.linkedin.com/in/carlosarellano96/" target="_blank"><img src="./img/linkedin.png"></a>
+        
+        </div>
+        </div>
+        </div>
+        
+        </section>
+        
 <footer>
 <p>Carlos Arellano, Copyright &copy; 2018</p>
 
